@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url("../img/valorant.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form-container {
+    background-color: #f4f4f4;
+    width: 35vw;
+    height: 80vh;
+    padding: 40px 30px;
+    display: inline-block;
+    border-radius: 34px;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+        color: #333;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input[type="text"], 
+        input[type="email"],
+        input[type="password"], 
+        input[type="tel"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 0.8rem;
+        }
+
+        .duas-colunas {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            input {
+                width: 48%;
+            }
+        }
+
+        label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 15px;
+
+            a {
+                color: #ff4655;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        
+        button {
+            width: 50%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #ff4655;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #e03e4e;
+            }
+        }
+
+
+    }
+}
