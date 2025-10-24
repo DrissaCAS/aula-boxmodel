@@ -18,7 +18,7 @@ Este projeto faz parte da Formação Empower Fullstack da Vai Na Web e tem como 
 - Estilização e validação de formulários utilizando HTML e CSS
 
 ## 📸 Resultado
-![Resultado final do projeto](/assets/img/result.png)
+![Resultado final do projeto](./assets/img/result.png)
 
 ## 🌐 Deploy
 
