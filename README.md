@@ -22,4 +22,4 @@ Este projeto faz parte da Formação Empower Fullstack da Vai Na Web e tem como 
 
 ## 🌐 Deploy
 
-🔗 Acesse aqui: Deploy em construção 🚧
+**🔗 Acesse aqui: [Link](https://drissacas.github.io/aula-boxmodel/)**
